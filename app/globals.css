@@ -5,3 +5,46 @@ body {
     flex-direction: column;
     align-items: center;
 }
+h1 {
+    text-align: center;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.main-container {
+    width: 1200px;
+}
+.header-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.about-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.blog-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.about-li {
+    list-style: none;
+}
+.pot-title {
+    color: yellow;
+    font-size: 35px;
+    background-color: red;
+    padding: 10px 0;
+    margin: 50px;
+}
+.post-p {
+    color: brown;
+    font-size: 20px;
+}
